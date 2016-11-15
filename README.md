@@ -73,6 +73,9 @@ docker-compose up
 
 ### Useful links
 https://app.pluralsight.com/player?course=node-js-express-rest-web-services&author=jonathan-mills&name=node-js-express-rest-web-services-m1&clip=0
+
 https://app.pluralsight.com/library/courses/docker-containers-big-picture/table-of-contents
+
 https://app.pluralsight.com/library/courses/docker-getting-started/table-of-contents
+
 https://app.pluralsight.com/player?course=docker-deep-dive&author=nigel-poulton&name=docker-deep-dive-m3&clip=3
