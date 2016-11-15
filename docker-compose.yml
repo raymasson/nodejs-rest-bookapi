@@ -1,5 +1,13 @@
+#Node JS Book Rest API : docker-compose.yml
+#Version 2 of docker-compose.yml file
 version: "2"
+
+#Two services are started with the "docker-compose up" command
 services:
+  #api : -docker image built thanks to the Dockerfile present in "."
+        #-docker host api relative path "." bound to the container path "/app"
+        #-docker host port "3000" bound to the container port "3000"
+        #-link to the "mongo" service
   api:
     build: .
     volumes:
@@ -8,6 +16,9 @@ services:
       - "3000:3000"
     links:
       - mongo
+
+  #mongo : -based on the docker image "mongo:latest"
+          #-docker host port "27017" bound to the container port "27017"
   mongo:
     image: mongo
     ports:
