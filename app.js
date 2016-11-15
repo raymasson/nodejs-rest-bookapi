@@ -23,7 +23,7 @@ var bookRouter = require('./routes/bookRoutes')(Book);
 app.use('/api/books', bookRouter);
 
 app.get('/', function (req, res) {
-    res.send('Welcome to my API!')
+    res.send('Welcome to my NodeJs REST API!')
 });
 
 app.listen(port, function () {
