@@ -4,7 +4,8 @@ var express = require('express'),
 
 
 //MongoDB
-var db = mongoose.connect('mongodb://localhost/bookAPI');
+//var db = mongoose.connect('mongodb://localhost/bookAPI');
+mongoose.connect('mongodb://mongo:27017/bookAPI');
 mongoose.Promise = global.Promise;
 
 //Models
